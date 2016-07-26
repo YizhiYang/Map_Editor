@@ -1,0 +1,72 @@
+
+{
+    "name":"San Marino",
+    "subregions_have_capitals":false,
+    "subregions_have_flags":true,
+    "subregions_have_leaders":true,
+    "subregions":[
+        {
+            "name":"Acquaviva",
+            "leader":"Lucia Tamagnini",
+            "red":225,
+            "green":225,
+            "blue":225
+        },
+        {
+            "name":"Borgo Maggiore",
+            "leader":"Sergio Nanni",
+            "red":200,
+            "green":200,
+            "blue":200
+        },
+        {
+            "name":"Chiesanuova",
+            "leader":"Franco Santi",
+            "red":175,
+            "green":175,
+            "blue":175
+        },
+        {
+            "name":"Domagnano",
+            "leader":"Gabriel Guidi",
+            "red":150,
+            "green":150,
+            "blue":150
+        },
+        {
+            "name":"Faetano",
+            "leader":"Pier Mario Bedetti",
+            "red":125,
+            "green":125,
+            "blue":125
+        },
+        {
+            "name":"Fiorentino",
+            "leader":"Gerri Fabbri",
+            "red":100,
+            "green":100,
+            "blue":100
+        },
+        {
+            "name":"Montegiardino",
+            "leader":"Marta Fabbri",
+            "red":75,
+            "green":75,
+            "blue":75
+        },
+        {
+            "name":"City of San Marino",
+            "leader":"Maria Teresa Beccari",
+            "red":50,
+            "green":50,
+            "blue":50
+        },
+        {
+            "name":"Serravalle",
+            "leader":"Leandro Maiani",
+            "red":25,
+            "green":25,
+            "blue":25
+        }
+    ]
+}

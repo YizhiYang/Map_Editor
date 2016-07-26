@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    This XML file allows us to easily customize the look and language used
+    in our program's user interface. Note that this properties file is only
+    for the standard controls for an app from the SimpleAppFramework, so
+    it would not include things initialized for the workspace, which is
+    customizable.
+-->
+<properties>
+    <property_list>
+        <property name="APP_TITLE"	    value="Map Editor"></property>
+	<property name="APP_LOGO"	    value="MapViewer.png"></property>
+	<property name="APP_PATH_CSS"	    value="css/"></property>
+	<property name="APP_CSS"	    value="mv_style.css"></property>
+        
+        <!-- PROGRAM ICON FILES -->
+        <property name="NEW_ICON"	    value="New.png"></property>
+        <property name="LOAD_ICON"	    value="Load.png"></property>
+        <property name="SAVE_ICON"	    value="Save.png"></property>
+        <property name="EXIT_ICON"          value="Exit.png"></property>
+        <property name="EXPORT_ICON"          value="Export.png"></property>
+        <property name="EXPORT_FILE"          value="Export"></property>
+        <property name="CHANGE_MAP_NAME"          value="ChangeMapName.png"></property>
+        <property name="ADD_IMAGE_TO_MAP"          value="AddImageToMap.png"></property>
+        <property name="REMOVE_IMAGE_ON_MAP"          value="RemoveImageOnMap.png"></property>
+        <property name="CHANGE_MAP_BACKGROUND_COLOR"          value="ChangeMapBackgroundColor.png"></property>
+        <property name="CHANGE_BORDER_COLOR"          value="ChangeBorderColor.png"></property>
+        <property name="CHANGE_BORDER_THICKNESS"          value="ChangeBorderThickness.png"></property>
+        <property name="REASSIGN_MAP_COLORS"          value="ReassignMapColors.png"></property>
+        <property name="PLAY_SUB_REGION_ANTHEM"          value="PlaySubregionAnthem.png"></property>
+        <property name="PAUSE_ANTHEM"          value="PauseAnthem.png"></property>
+        <property name="CHANGE_MAP_DIMENSIONS"          value="ChangeMapDimensions.png"></property>
+        
+        <!-- CUST -->
+        <property name="ENTER_A_NAME_FOR_THE_MAP"		value="Name of the Map: "></property>
+        <property name="OK"		value="OK"></property>
+        <property name="CANCEL"		value="Cancel"></property>
+        <property name="NAME_OF_THE_MAP"		value="Name of the Map..."></property>
+        <property name="PICK_A_BACKGROUND_COLOR"		value="Background Color..."></property>
+        <property name="BACKGROUND_COLOR"		value="Background's Color..."></property>
+        <property name="PICK_A_BORDERS_COLOR"		value="Borders' Color..."></property>
+        <property name="BORDERS_COLOR"		value="Borders' Color..."></property>
+        <property name="X_COORDINATE"		value="X Coordinate: "></property>
+        <property name="Y_COORDINATE"		value="Y Coordinate: "></property>
+        <property name="CHANGE_MAPS_DIMENSIONS"		value="Change Map's Dimension..."></property>
+        <property name="CHOOSE_A_DATA_FILE"		value="Choose a data file: "></property>
+        <property name="CHOOSE_A_PARENT_DIRECTORY"		value="Choose a parent directory: "></property>
+        <property name="NEW_MAP"		value="New Map... "></property>
+        
+        
+        
+        
+        <!-- TOOLTIPS FOR BUTTONS -->
+        <property name="NEW_TOOLTIP"		value="New Map"></property>
+        <property name="LOAD_TOOLTIP"		value="Load a Map"></property>
+        <property name="SAVE_TOOLTIP"		value="Save"></property>
+        <property name="EXIT_TOOLTIP"		value="Exit the Application"></property>
+        <property name="EXPORT_TOOLTIP"		value="Export"></property>
+        <property name="CHANGEMAPNAME_TOOLTIP"		value="Change Map Name"></property>
+        <property name="ADDIMAGETOMAP_TOOLTIP"		value="Add Image to Map"></property>
+        <property name="REMOVEIMAGEFROMMAP_TOOLTIP"		value="Remove Image from Map"></property>
+        <property name="CHANGEMAPBACKGROUNDCOLOR_TOOLTIP"		value="Change Map Background Color"></property>
+        <property name="CHANGEBORDERCOLOR_TOOLTIP"		value="Change Border Color"></property>
+        <property name="CHANGEBORDERTHICKNESS_TOOLTIP"		value="Change Border Thickness"></property>
+        <property name="REASSIGNMAPCOLORS_TOOLTIP"		value="Reassign Map Color"></property>
+        <property name="PLAYSUBREGIONANTHEM_TOOLTIP"		value="Play Anthem"></property>
+        <property name="PAUSEANTHEM_TOOLTIP"		value="Pause Anthem"></property>
+        <property name="ZOOMMAPINOUT_TOOLTIP"		value="Zoom Map In or Out"></property>
+        <property name="CHANGEMAPDIMENSIONS_TOOLTIP"		value="Change Map Dimensions"></property>
+        
+        <!-- ERROR MESSAGES -->
+        <property name="CLOSE_BUTTON_TEXT"              value="Close"></property>
+
+        <property name="NEW_ERROR_MESSAGE"              value="An error occured creating New work."></property>
+        <property name="NEW_ERROR_TITLE"		value="New Work Error"></property>
+        <property name="LOAD_ERROR_MESSAGE"             value="An error occured loading work."></property>
+        <property name="LOAD_ERROR_TITLE"		value="Load Work Error"></property>
+        <property name="SAVE_ERROR_MESSAGE"             value="An error occured saving work."></property>
+        <property name="SAVE_ERROR_TITLE"		value="Save Work Error"></property>
+        <property name="PROPERTIES_LOAD_ERROR_MESSAGE"	value="An error occured loading a properties file."></property>	
+        <property name="PROPERTIES_LOAD_ERROR_TITLE"	value="Properties File Loading Error"></property>
+	
+        <!-- VERIFICATION MESSAGES -->
+	
+        <property name="NEW_COMPLETED_MESSAGE"		value="New Work Ready for Editing"></property>
+        <property name="NEW_COMPLETED_TITLE"		value="New Work Created"></property>
+        <property name="LOAD_COMPLETED_MESSAGE"		value="File Loading Completed and ready for editing"></property>
+        <property name="LOAD_COMPLETED_TITLE"		value="Loading Completed"></property>
+        <property name="SAVE_COMPLETED_MESSAGE"		value="File Saving Completed"></property>
+        <property name="SAVE_COMPLETED_TITLE"		value="Saving Completed"></property>
+        <property name="SAVE_UNSAVED_WORK_MESSAGE"	value="Would you like to save your unsaved work first?"></property>
+        <property name="SAVE_UNSAVED_WORK_TITLE"	value="Save unsaved work?"></property>
+	
+        <property name="NEW_CREATED_MESSAGE"		value="New Work Created but not yet Saved"></property>
+        <property name="WORK_LOADED_MESSAGE"		value="The Work has been Loaded"></property>
+        <property name="WORK_SAVED_MESSAGE"		value="The Work has been Saved"></property>
+        <property name="SAVE_UNSAVED_WORK_MESSAGE"	value="Do you want to save your unsaved work first?"></property>
+	<property name="SAVE_WORK_TITLE"		value="Save your work"></property>
+	<property name="LOAD_WORK_TITLE"		value="Select work file to load"></property>
+	<property name="WORK_FILE_EXT"			value="json"></property>
+        <property name="RVM_FILE_EXT"			value="rvm"></property>
+	<property name="WORK_FILE_EXT_DESC"		value=".rvm file"></property>
+        
+        <property name="NAME"                    value="Name: "></property>
+        <property name="CAPITAL"                    value="Capital: "></property>
+        <property name="LEADER"                    value="Leader: "></property>
+        <property name="NEXT"                    value="Next"></property>
+        <property name="PREVIOUS"                    value="Previous"></property>
+        
+        <property name="EDIT_MAP"                    value="Edit Subregion..."></property>
+    </property_list>
+    <property_options_list>
+    </property_options_list>
+</properties>

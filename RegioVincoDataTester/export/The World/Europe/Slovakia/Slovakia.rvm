@@ -1,0 +1,57 @@
+
+{
+    "name":"Slovakia",
+    "subregions_have_capitals":false,
+    "subregions_have_flags":false,
+    "subregions_have_leaders":false,
+    "subregions":[
+        {
+            "name":"Bratislava",
+            "red":250,
+            "green":250,
+            "blue":250
+        },
+        {
+            "name":"Trnava",
+            "red":249,
+            "green":249,
+            "blue":249
+        },
+        {
+            "name":"Trencin",
+            "red":248,
+            "green":248,
+            "blue":249
+        },
+        {
+            "name":"Nitra",
+            "red":247,
+            "green":247,
+            "blue":247
+        },
+        {
+            "name":"Zilina",
+            "red":246,
+            "green":246,
+            "blue":246
+        },
+        {
+            "name":"Banska Bystrica",
+            "red":245,
+            "green":245,
+            "blue":245
+        },
+        {
+            "name":"Presov",
+            "red":244,
+            "green":244,
+            "blue":244
+        },
+        {
+            "name":"Kosice",
+            "red":243,
+            "green":243,
+            "blue":243
+        }
+    ]
+}

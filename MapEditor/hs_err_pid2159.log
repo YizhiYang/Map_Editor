@@ -1,0 +1,97 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  SIGSEGV (0xb) at pc=0x00007fff8208525f, pid=2159, tid=1811
+#
+# JRE version: Java(TM) SE Runtime Environment (8.0_91-b14) (build 1.8.0_91-b14)
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (25.91-b14 mixed mode bsd-amd64 compressed oops)
+# Problematic frame:
+# C  [libsystem_platform.dylib+0x525f]  _platform_memmove$VARIANT$Merom+0x1f
+#
+# Failed to write core dump. Core dumps have been disabled. To enable core dumping, try "ulimit -c unlimited" before starting Java again
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.java.com/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread is native thread
+
+siginfo: si_signo: 11 (SIGSEGV), si_code: 0 (unknown), si_addr: 0x0000000000000000
+
+Registers:
+RAX=0xfff700537206a4c0, RBX=0x00007fff57adb210, RCX=0x0000000000000002, RDX=0x0000000000000008
+RSP=0x00007fff57adb180, RBP=0x00007fff57adb180, RSI=0x00097fabe5a70d50, RDI=0x00007fff57adb210
+R8 =0x0000000000000000, R9 =0x0000000000000000, R10=0x00007fabe474af30, R11=0x00007fff57adb210
+R12=0x00097fabe5a70d50, R13=0x00007fabe5b893d0, R14=0x0000000000000001, R15=0x00007fff57adb210
+RIP=0x00007fff8208525f, EFLAGS=0x0000000000010202, ERR=0x0000000000000000
+  TRAPNO=0x000000000000000d
+
+Top of Stack: (sp=0x00007fff57adb180)
+0x00007fff57adb180:   00007fff57adb1a0 00007fff87726f9e
+0x00007fff57adb190:   0000000000000028 0000000000000001
+0x00007fff57adb1a0:   00007fff57adb200 00007fff8dad69e5
+0x00007fff57adb1b0:   00007fff57adb220 00007fff83fe868b
+0x00007fff57adb1c0:   00007fff57adb220 00007fff83fe85e5
+0x00007fff57adb1d0:   00007fff57adb210 0000000000000000
+0x00007fff57adb1e0:   00007fff57adb210 0000000000000008
+0x00007fff57adb1f0:   00007fabe5b893d0 0000000000000001
+0x00007fff57adb200:   00007fff57adb260 00007fff8dad605b
+0x00007fff57adb210:   0000000000000000 00007fff8dad5fb7
+0x00007fff57adb220:   00007fabe350c480 00007fff00000000
+0x00007fff57adb230:   11003c677eed5273 00007fabe3514cd0
+0x00007fff57adb240:   00007fabe5a8a360 0000000000000000
+0x00007fff57adb250:   00007fff8771f0c0 00007fabe5d76880
+0x00007fff57adb260:   00007fff57adb530 00007fff91477552
+0x00007fff57adb270:   0000000000000006 000000010813d000
+0x00007fff57adb280:   0000000000000000 0000000000000000
+0x00007fff57adb290:   0000000000000000 00007fabe3514cd0
+0x00007fff57adb2a0:   0000000000000000 0000000000000000
+0x00007fff57adb2b0:   0000000000000000 0000000000000000
+0x00007fff57adb2c0:   0000000000000000 0000000000000000
+0x00007fff57adb2d0:   0000000000000000 0000000000000000
+0x00007fff57adb2e0:   0000000000000000 0000000000000000
+0x00007fff57adb2f0:   0000000000000000 0000000000000000
+0x00007fff57adb300:   00007fff72d530d0 0000000042000000
+0x00007fff57adb310:   00007fff83fe87e3 00007fff7208e510
+0x00007fff57adb320:   00007fff57adb470 00007fff57adb330
+0x00007fff57adb330:   0000000000000000 00007fff57adb330
+0x00007fff57adb340:   0000003002000000 00007fff83fe87b0
+0x00007fff57adb350:   00007fff83fe87d0 0000000000000000
+0x00007fff57adb360:   00007fff57adb510 00007fff8dab9b9f
+0x00007fff57adb370:   00007fff57adb400 00007fabe3945c90 
+
+Instructions: (pc=0x00007fff8208525f)
+0x00007fff8208523f:   90 55 48 89 e5 49 89 fb 48 89 f8 48 29 f0 48 39
+0x00007fff8208524f:   d0 72 35 48 83 fa 50 77 34 89 d1 c1 e9 02 74 10
+0x00007fff8208525f:   8b 06 48 83 c6 04 89 07 48 83 c7 04 ff c9 75 f0
+0x00007fff8208526f:   83 e2 03 74 0e 8a 06 48 ff c6 88 07 48 ff c7 ff 
+
+Register to memory mapping:
+
+RAX=0xfff700537206a4c0 is an unknown value
+RBX=0x00007fff57adb210 is an unknown value
+RCX=0x0000000000000002 is an unknown value
+RDX=0x0000000000000008 is an unknown value
+RSP=0x00007fff57adb180 is an unknown value
+RBP=0x00007fff57adb180 is an unknown value
+RSI=0x00097fabe5a70d50 is an unknown value
+RDI=0x00007fff57adb210 is an unknown value
+R8 =0x0000000000000000 is an unknown value
+R9 =0x0000000000000000 is an unknown value
+R10=0x00007fabe474af30 is an unknown value
+R11=0x00007fff57adb210 is an unknown value
+R12=0x00097fabe5a70d50 is an unknown value
+R13=0x00007fabe5b893d0 is an unknown value
+R14=0x0000000000000001 is an unknown value
+R15=0x00007fff57adb210 is an unknown value
+
+
+Stack: [0x00007fff572de000,0x00007fff57ade000],  sp=0x00007fff57adb180,  free space=8180k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+C  [libsystem_platform.dylib+0x525f]  _platform_memmove$VARIANT$Merom+0x1f
+C  [libobjc.A.dylib+0x8f9e]  objc_memmove_collectable+0x41
+C  [CoreFoundation+0x3b9e5]  -[__NSArrayM getObjects:range:]+0x1a5
+C  [CoreFoundation+0x3b05b]  -[NSArray initWithArray:range:copyItems:]+0x12b
+C

@@ -1,0 +1,108 @@
+
+{
+    "name":"Andorra",
+    "rawData":"C:\\Final Homework\\final-implementation\\MapEditor\\raw_map_data\\Andorra.json",
+    "backgroundColor":"#FFB3B3",
+    "borderColor":"#CCFFCC",
+    "borderThickness":"0.006349206349206352",
+    "zoomLevel":"512.0",
+    "XPositionOfNationalFlag":"",
+    "YPositionOfNationalFlag":"",
+    "XPositionOfNationalLogo":"",
+    "YPositionOfNationalLogo":"",
+    "scrollPosition":"",
+    "flagPath":"",
+    "logoPath":"",
+    "numberOfRegions":7,
+    "regions":[
+        {
+            "name":"Andorra la Vella",
+            "leaderName":"Enric Casadevall Medrano",
+            "capital":"",
+            "red":"48",
+            "green":"48",
+            "blue":"48",
+            "leader":"",
+            "flag":""
+        },
+        {
+            "name":"Carillo",
+            "leaderName":"Josep Areny",
+            "capital":"",
+            "red":"57",
+            "green":"57",
+            "blue":"57",
+            "leader":"",
+            "flag":""
+        },
+        {
+            "name":"Encamp",
+            "leaderName":"Josep Pintat Forné",
+            "capital":"",
+            "red":"66",
+            "green":"66",
+            "blue":"66",
+            "leader":"",
+            "flag":""
+        },
+        {
+            "name":"La Massana",
+            "leaderName":"Maria Rosa Ferrer Obiols",
+            "capital":"",
+            "red":"75",
+            "green":"75",
+            "blue":"75",
+            "leader":"",
+            "flag":""
+        },
+        {
+            "name":"Escaldes-Engordany",
+            "leaderName":"Miquel Alís Font",
+            "capital":"",
+            "red":"84",
+            "green":"84",
+            "blue":"84",
+            "leader":"",
+            "flag":""
+        },
+        {
+            "name":"Ordino",
+            "leaderName":"Montserrat Capdevila Pallarés",
+            "capital":"",
+            "red":"93",
+            "green":"93",
+            "blue":"93",
+            "leader":"",
+            "flag":""
+        },
+        {
+            "name":"Sant Julia de Loria",
+            "leaderName":"Ventura Espot",
+            "capital":"",
+            "red":"102",
+            "green":"102",
+            "blue":"102",
+            "leader":"",
+            "flag":""
+        }
+    ],
+    "files":[
+        {
+            "name":"C:\\Final Homework\\final-implementation\\MapEditor\\export\\The World\\Europe\\Andorra\\coatofarms.png"
+        },
+        {
+            "name":"C:\\Final Homework\\final-implementation\\MapEditor\\export\\The World\\Europe\\Andorra Flag.png"
+        }
+    ],
+    "points":[
+        {
+            "X":9.0,
+            "Y":741.5
+        },
+        {
+            "X":1217.0,
+            "Y":12.5
+        }
+    ],
+    "parentDir":"C:\\Final Homework\\final-implementation\\MapEditor\\export\\The World\\Europe\\Andorra"
+}

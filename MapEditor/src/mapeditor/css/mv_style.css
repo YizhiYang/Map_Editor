@@ -1,0 +1,60 @@
+/* 
+    This style sheet stylizes the controls inside our
+    Web Page Maker JavaFX application. Note that controls
+    in the UI must have the same class as those below in 
+    order to be rendered using those properties.
+
+*/
+
+.bordered_pane {
+    -fx-background-color: #CCFFFF;
+    -fx-background-radius: 5.0;
+    -fx-padding: 15;
+    -fx-spacing: 10;
+    -fx-border-width: 2px;
+    
+    -fx-border-color: #ADF7BE;
+}
+
+.heading_label {
+    -fx-font-size: 20pt;
+    -fx-font-weight: bold;
+}
+
+.subheading_label {
+    -fx-font-size: 14pt;
+    -fx-font-weight: bold;
+}
+
+.prompt_label {
+    -fx-font-size: 10pt;
+    -fx-font-weight: bold;
+}
+
+.cust{
+    -fx-background-color: #CCFFFF;
+    -fx-font-size: 14;
+    -fx-font-family: Papyrus, fantasy;
+    -fx-table-cell-border-color:#CCFFFF;
+}
+
+.table-row-cell{
+    -fx-table-cell-border-color:black;
+    -fx-background-color: -fx-table-cell-border-color, #CCFFFF;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em; /* 0 */
+}
+
+.table-view:focused .table-row-cell:filled:focused:selected {
+    -fx-background-color: #00CCCC;
+    -fx-background-insets: 0, 1, 2;
+    -fx-background: -fx-accent;
+    -fx-text-fill: -fx-selection-bar-text;
+}
+
+.cust2{
+    -fx-background-color: #CCFFFF;
+    -fx-font-size: 19;
+    -fx-font-family: Papyrus, fantasy;
+    -fx-table-cell-border-color:#CCFFFF;
+}
